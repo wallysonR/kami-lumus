@@ -10,7 +10,7 @@ public class Calculadora {
 		int a = scan.nextInt();
 		System.out.println("Digite o segundo valor: ");
 		int b = scan.nextInt();
-
+		scan.close();
 		int soma = soma(a, b);
 		int subtracao = subtracao(a, b);
 		int multiplicacao = multiplicacao(a, b);
